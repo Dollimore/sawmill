@@ -1,0 +1,156 @@
+h2 {
+    display: flex;
+    margin-top: 100px;
+    justify-content: left;
+    margin-left: 45px;
+    margin-bottom: 30px !important;
+}
+  
+.icon-row {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.icon-row li {
+    position: relative;
+    margin-right: 30px;
+}
+  
+.icon-row img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+  
+.icon-row .overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 4px solid white;
+}
+  
+.icon-row li:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modal2 {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal2 .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal2 .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal2 .close:hover,
+.modal2 .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal2 h2 {
+    margin-top: 0;
+}
+
+.modal2 .form-group {
+    margin-bottom: 10px;
+}
+
+.modal2 label {
+    display: block;
+    font-weight: bold;
+}
+
+.modal2 input[type="text"],
+.modal2 input[type="number"],
+.modal2 input[type="date"]
+{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.modal2 button[type="submit"] {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.modal2 button[type="submit"]:hover {
+    background-color: #45a049;
+
+}
+
+.productH2 {
+    margin-left: 0;
+}
+
+.modal2 button {
+    border-radius: 10px;
+}
+
+.modal3 .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+  
+.modal3 #confirmOrderBtn {
+    padding: 8px 16px;
+    background-color: hsl(122, 47%, 54%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.modal3 #confirmOrderBtn:hover {
+    background-color: hsl(122, 33%, 55%);
+}
+
+.modal3 h2 {
+    margin-left: 0px;
+}
+.status-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
